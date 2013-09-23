@@ -13,21 +13,21 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
+			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-jaxrs</artifactId>
-			<version>2.3.1.GA</version>
+			<version>3.0.4.Final</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-jackson-provider</artifactId>
-			<version>2.2.1.GA</version>
+			<version>3.0.4.Final</version>
 		</dependency>
 
 	</dependencies>
@@ -37,14 +37,17 @@
 	</build>
 
 	<repositories>
+	    
 		<repository>
 			<id>java.net</id>
 			<url>https://maven.java.net/content/repositories/public/</url>
 		</repository>
+		
 		<repository>
 			<id>JBoss repository</id>
 			<url>http://repository.jboss.org/nexus/content/groups/public/</url>
 		</repository>
+		
 	</repositories>
 
 </project>

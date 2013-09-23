@@ -4,9 +4,12 @@
 
 <web-app>
 	<display-name>Archetype Created Web Application</display-name>
+
+	<context-param>
+		<param-name>resteasy.resources</param-name>
+		<param-value>true</param-value> 
+	</context-param>
+
 </web-app>
 
-<context-param>
-	<param-name>resteasy.resources</param-name>
-	<param-value>com.mkyong.rest.JSONService</param-value>
-</context-param>
+
